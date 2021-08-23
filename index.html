@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>NoteBox</h1>
+      </div>
+
+    <div class="back">
+        <br>
+        <br>
+        <h1 class="welcome" style="color: aliceblue;">Welcome To NoteBox</h1>
+        <br>
+
+        <div class="container ">
+          
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Add your note</h5>
+                    <div class="form-group">
+                        <textarea class="form-control" id="addTxt" rows="3"></textarea>
+                    </div>
+                    <button class="btn " id="addBtn">Add Note</button>
+                </div>
+            </div>
+            <hr>
+            <h1>Your Notes</h1>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search your note" aria-label="Search">
+                <button id="button" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <hr>
+            <div id="notes" class="row container-fluid"> </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>NoteBox © 2021</h2>
+      </div>
+    
+    </body>
+    <script src="app.js"></script>
+
+</html>
