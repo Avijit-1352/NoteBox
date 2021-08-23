@@ -1,2 +1,2 @@
-#NoteBox
- <h2> this website using html,css and javascript
+ <h1>NoteBox
+  <h2> this website using HTML,CSS and JavaScript
